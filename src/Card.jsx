@@ -3,7 +3,7 @@ import "./card.css";
 
 const Card = ({ searchData }) => {
   return (
-    <div className="card">
+    <div className="weather-cards">
       <div className="weather-card">
         <h3>Temperature</h3>
         <p>{searchData.temp_c}°C</p>
