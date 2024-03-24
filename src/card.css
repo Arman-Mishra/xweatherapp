@@ -1,4 +1,4 @@
-.card {
+.weather-cards {
   font-family: sans-serif;
   width: 90%;
   margin: 30px auto;
@@ -7,7 +7,7 @@
   column-gap: 50px;
 }
 
-.weather-cards {
+.weather-card {
   display: flex;
   flex-direction: column;
   height: 20vh;
