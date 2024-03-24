@@ -1,0 +1,32 @@
+.container {
+  margin: 200px auto 0px;
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_bar {
+  padding: 10px 15px;
+  border: 1px solid rgb(244, 250, 255);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search_bar::placeholder {
+  color: rgb(130, 130, 130);
+  font-size: 1rem;
+}
+
+.search_bar:focus {
+  outline: none;
+}
+
+.button {
+  padding: 10px 15px;
+  color: rgb(251, 251, 229);
+  background-color: rgb(76, 175, 80);
+  border: 1px solid rgb(217, 238, 230);
+  border-radius: 5px;
+  font-size: 1rem;
+}

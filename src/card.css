@@ -1,0 +1,26 @@
+.card {
+  font-family: sans-serif;
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 50px;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h3 {
+  margin: 10px auto;
+}
+
+p {
+  margin: 5px auto;
+}
